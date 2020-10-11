@@ -1,8 +1,13 @@
 ﻿<Properties StartupConfiguration="{B005C9B4-6B77-CDD0-A1CA-92B3DE40C8CA}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameOverScript.cs">
     <Files>
-      <File FileName="Assets/Scripts/EnemyScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/PlayerScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/EnemyScript.cs" Line="62" Column="31" />
+      <File FileName="Assets/Scripts/PlayerScript.cs" Line="40" Column="67" />
+      <File FileName="Assets/Scripts/SpecialEffectsHelper.cs" Line="51" Column="20" />
+      <File FileName="Assets/Scripts/HealthScript.cs" Line="30" Column="62" />
+      <File FileName="Assets/Scripts/SoundEffectsHelper.cs" Line="28" Column="1" />
+      <File FileName="Assets/Scripts/MenuScript.cs" Line="12" Column="42" />
+      <File FileName="Assets/Scripts/GameOverScript.cs" Line="47" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,7 +15,7 @@
           <Node name="GDD1-Shmup-Project" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="PlayerScript.cs" selected="True" />
+                <Node name="GameOverScript.cs" selected="True" />
               </Node>
             </Node>
           </Node>
