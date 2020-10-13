@@ -87,4 +87,22 @@ public class EnemyScript : MonoBehaviour
             weapon.enabled = true;
         }
     }
+
+    void OnTriggerEnter2D(Collider2D otherCollider)
+    {
+        // Is this a shot?
+        ShotScript shot = otherCollider.gameObject.GetComponent<ShotScript>();
+        if (shot != null)
+        {
+
+            SpecialEffectsHelper.Instance.EatBread(transform.position);
+
+            // Dead!
+            Destroy(gameObject);
+
+            // Destroy the shot
+            Destroy(shot.gameObject); // Remember to always target the game object, otherwise you will just remove the script
+       
+        }
+    }
 }

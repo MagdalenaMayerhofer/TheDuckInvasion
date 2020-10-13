@@ -80,25 +80,12 @@ public class PlayerScript : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        bool damagePlayer = false;
+        // 'Splosion!
+        SpecialEffectsHelper.Instance.Explosion(transform.position);
+        SoundEffectsHelper.Instance.MakeExplosionSound();
 
-        // Collision with enemy
-        EnemyScript enemy = collision.gameObject.GetComponent<EnemyScript>();
-        if (enemy != null)
-        {
-            // Kill the enemy
-            HealthScript enemyHealth = enemy.GetComponent<HealthScript>();
-            if (enemyHealth != null) enemyHealth.Damage(enemyHealth.hp);
-
-            damagePlayer = true;
-        }
-
-        // Damage the player
-        if (damagePlayer)
-        {
-            HealthScript playerHealth = this.GetComponent<HealthScript>();
-            if (playerHealth != null) playerHealth.Damage(1);
-        }
+        // Dead!
+        Destroy(gameObject);
     }
 
     void OnDestroy()
@@ -107,4 +94,5 @@ public class PlayerScript : MonoBehaviour
         var gameOver = FindObjectOfType<GameOverScript>();
         gameOver.ShowButtons();
     }
+
 }

@@ -21,7 +21,7 @@ public class EnemyBehaviour : MonoBehaviour
 
         if (creationIntervall == 0)
         {
-            creationIntervall = 20;
+            creationIntervall = 60;
             Utils.CreateRubberDuckInstance(rubberDuckPrefab);
         }
     }
