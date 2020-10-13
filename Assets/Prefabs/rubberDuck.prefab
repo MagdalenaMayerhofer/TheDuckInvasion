@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 3679891039511978857}
   - component: {fileID: 7382528555608772882}
   m_Layer: 0
-  m_Name: poulpi
+  m_Name: rubberDuck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 419454971
   m_SortingLayer: -3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 319af9e10e8ab4ca8a9e8385d5772200, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f5e2da44175114ff98dbb84fbc5f825c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -103,7 +103,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5.88, y: 4.14}
+    oldSize: {x: 3.08, y: 2.95}
     newSize: {x: 5.88, y: 4.14}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a37cbac930a114477b5a7a7a524365fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: {x: 5, y: 5}
+  speed: {x: 1, y: 1}
   direction: {x: -1, y: 0}
 --- !u!114 &3679891039511978857
 MonoBehaviour:
