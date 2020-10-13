@@ -13,6 +13,7 @@ public class SpecialEffectsHelper : MonoBehaviour
     public ParticleSystem smokeEffect;
     public ParticleSystem fireEffect;
     public ParticleSystem breadCrumbsEffect;
+    public ParticleSystem waterdropsEffect;
 
     void Awake()
     {
@@ -43,6 +44,11 @@ public class SpecialEffectsHelper : MonoBehaviour
     public void EatBread(Vector3 position)
     {
         instantiate(breadCrumbsEffect, position);
+    }
+
+    public void Splash(Vector3 position)
+    {
+        instantiate(waterdropsEffect, position);
     }
 
     /// <summary>

@@ -78,7 +78,7 @@ public class PlayerScript : MonoBehaviour
     void OnCollisionEnter2D(Collision2D collision)
     {
         // 'Splosion!
-        SpecialEffectsHelper.Instance.Explosion(transform.position);
+        SpecialEffectsHelper.Instance.Splash(transform.position);
         SoundEffectsHelper.Instance.MakeExplosionSound();
 
         // Dead!
