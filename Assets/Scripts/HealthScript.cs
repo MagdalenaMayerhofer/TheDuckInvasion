@@ -34,6 +34,14 @@ public class HealthScript : MonoBehaviour
         }
     }
 
+    public void FeedDuck()
+    {
+        SpecialEffectsHelper.Instance.EatBread(transform.position);
+
+        // Dead!
+        Destroy(gameObject);
+    }
+
     void OnTriggerEnter2D(Collider2D otherCollider)
     {
         // Is this a shot?
@@ -43,7 +51,7 @@ public class HealthScript : MonoBehaviour
             // Avoid friendly fire
             if (shot.isEnemyShot != isEnemy)
             {
-                Damage(shot.damage);
+                FeedDuck();
 
                 // Destroy the shot
                 Destroy(shot.gameObject); // Remember to always target the game object, otherwise you will just remove the script

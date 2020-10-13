@@ -12,6 +12,7 @@ public class SpecialEffectsHelper : MonoBehaviour
 
     public ParticleSystem smokeEffect;
     public ParticleSystem fireEffect;
+    public ParticleSystem breadCrumbsEffect;
 
     void Awake()
     {
@@ -37,6 +38,11 @@ public class SpecialEffectsHelper : MonoBehaviour
 
         // Fire in the sky
         instantiate(fireEffect, position);
+    }
+
+    public void EatBread(Vector3 position)
+    {
+        instantiate(breadCrumbsEffect, position);
     }
 
     /// <summary>

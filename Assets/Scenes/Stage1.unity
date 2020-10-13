@@ -2630,6 +2630,8 @@ MonoBehaviour:
     type: 3}
   fireEffect: {fileID: 2253117795246056778, guid: 0bb94bd466d5640dcab40d646e55ffd1,
     type: 3}
+  breadCrumbsEffect: {fileID: 7480516686523245751, guid: c5c9b5f0621f143339e3017806e45456,
+    type: 3}
 --- !u!114 &2120421814
 MonoBehaviour:
   m_ObjectHideFlags: 0
