@@ -585,9 +585,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc3dc8bb4f3e944f1a4b8207155f92e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shotPrefab: {fileID: 1210121955136222428, guid: 2c99242518abf4934be2bf6b0573bd69,
+  foodPrefab: {fileID: 1210121955136222428, guid: 2c99242518abf4934be2bf6b0573bd69,
     type: 3}
-  shootingRate: 0.25
+  icePrefab: {fileID: 445680432729082849, guid: 9b1498bf08a44403688394f4f3af2748,
+    type: 3}
 --- !u!114 &156650838
 MonoBehaviour:
   m_ObjectHideFlags: 0
