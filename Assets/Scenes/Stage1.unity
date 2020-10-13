@@ -440,7 +440,6 @@ GameObject:
   - component: {fileID: 156650832}
   - component: {fileID: 156650835}
   - component: {fileID: 156650836}
-  - component: {fileID: 156650837}
   - component: {fileID: 156650838}
   m_Layer: 0
   m_Name: Player
@@ -588,20 +587,6 @@ MonoBehaviour:
   shotPrefab: {fileID: 1210121955136222428, guid: 2c99242518abf4934be2bf6b0573bd69,
     type: 3}
   shootingRate: 0.25
---- !u!114 &156650837
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 156650830}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 924b11e6117cb464280e8fea0a1f8c77, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hp: 1
-  isEnemy: 0
 --- !u!114 &156650838
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2593,6 +2578,7 @@ GameObject:
   - component: {fileID: 2120421812}
   - component: {fileID: 2120421813}
   - component: {fileID: 2120421814}
+  - component: {fileID: 2120421815}
   m_Layer: 0
   m_Name: Scripts
   m_TagString: Untagged
@@ -2647,3 +2633,15 @@ MonoBehaviour:
   explosionSound: {fileID: 8300000, guid: 726cf00aec00744e5ba8d86986d2365f, type: 3}
   playerShotSound: {fileID: 8300000, guid: 32d6d8c73828a4ef2b0376c85bc91821, type: 3}
   enemyShotSound: {fileID: 8300000, guid: 726a88395253c4ab79b6ac2298772520, type: 3}
+--- !u!114 &2120421815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2120421811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 339c8ab294d7e442d9aa08d59a067c5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -102,7 +102,10 @@ public class EnemyScript : MonoBehaviour
 
             // Destroy the shot
             Destroy(shot.gameObject); // Remember to always target the game object, otherwise you will just remove the script
-       
+
+            Utils.Instance.CreateRubberDuckInstance();
+            Utils.Instance.CreateRubberDuckInstance();
+
         }
     }
 }

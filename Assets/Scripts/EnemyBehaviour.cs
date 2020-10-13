@@ -4,14 +4,12 @@ using UnityEngine;
 
 public class EnemyBehaviour : MonoBehaviour
 {
-
-    public GameObject rubberDuckPrefab;
-    float creationIntervall = 60;
+    float creationIntervall = 120;
 
     // Start is called before the first frame update
     void Start()
     {
-        Utils.CreateRubberDuckInstance(rubberDuckPrefab);
+        Utils.Instance.CreateRubberDuckInstance();
     }
 
     // Update is called once per frame
@@ -21,8 +19,8 @@ public class EnemyBehaviour : MonoBehaviour
 
         if (creationIntervall == 0)
         {
-            creationIntervall = 60;
-            Utils.CreateRubberDuckInstance(rubberDuckPrefab);
+            creationIntervall = 120;
+            Utils.Instance.CreateRubberDuckInstance();
         }
     }
 }
