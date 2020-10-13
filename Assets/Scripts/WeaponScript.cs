@@ -45,7 +45,7 @@ public class WeaponScript : MonoBehaviour
     /// <summary>
     /// Create a new projectile if possible
     /// </summary>
-    public void Attack(bool isEnemy)
+    public void Attack()
     {
         if (CanAttack)
         {
@@ -59,10 +59,6 @@ public class WeaponScript : MonoBehaviour
 
             // The is enemy property
             ShotScript shot = shotTransform.gameObject.GetComponent<ShotScript>();
-            if (shot != null)
-            {
-                shot.isEnemyShot = isEnemy;
-            }
 
             // Make the weapon shot always towards it
             MoveScript move = shotTransform.gameObject.GetComponent<MoveScript>();

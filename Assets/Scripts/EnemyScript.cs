@@ -7,15 +7,11 @@ public class EnemyScript : MonoBehaviour
 {
     private bool hasSpawn;
     private MoveScript moveScript;
-    private WeaponScript[] weapons;
     private Collider2D coliderComponent;
     private SpriteRenderer rendererComponent;
 
     void Awake()
     {
-        // Retrieve the weapon only once
-        weapons = GetComponentsInChildren<WeaponScript>();
-
         // Retrieve scripts to disable when not spawn
         moveScript = GetComponent<MoveScript>();
 
@@ -34,11 +30,6 @@ public class EnemyScript : MonoBehaviour
         coliderComponent.enabled = false;
         // -- Moving
         moveScript.enabled = false;
-        // -- Shooting
-        foreach (WeaponScript weapon in weapons)
-        {
-            weapon.enabled = false;
-        }
     }
 
     void Update()
@@ -53,16 +44,6 @@ public class EnemyScript : MonoBehaviour
         }
         else
         {
-            // Auto-fire
-            foreach (WeaponScript weapon in weapons)
-            {
-                if (weapon != null && weapon.enabled && weapon.CanAttack)
-                {
-                    weapon.Attack(true);
-                    SoundEffectsHelper.Instance.MakeEnemyShotSound();
-                }
-            }
-
             // 4 - Out of the camera ? Destroy the game object.
             if (rendererComponent.IsVisibleFrom(Camera.main) == false)
             {
@@ -81,11 +62,6 @@ public class EnemyScript : MonoBehaviour
         coliderComponent.enabled = true;
         // -- Moving
         moveScript.enabled = true;
-        // -- Shooting
-        foreach (WeaponScript weapon in weapons)
-        {
-            weapon.enabled = true;
-        }
     }
 
     void OnTriggerEnter2D(Collider2D otherCollider)
