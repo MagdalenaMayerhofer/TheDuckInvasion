@@ -2425,8 +2425,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 687857ccd8e854eedb62a02db6e02a09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rubberDuckPrefab: {fileID: 8774270705798066193, guid: 8b4d0ec85e5d140498fbe3a02a9420df,
-    type: 3}
 --- !u!4 &1906588821 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5233981615260382689, guid: 83f030582d0874c108fc7d575d77a4bd,
@@ -2645,3 +2643,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 339c8ab294d7e442d9aa08d59a067c5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rubberDuckPrefab: {fileID: 8774270705798066193, guid: 8b4d0ec85e5d140498fbe3a02a9420df,
+    type: 3}
