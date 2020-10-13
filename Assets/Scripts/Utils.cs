@@ -23,7 +23,7 @@ public class Utils : MonoBehaviour
 
     public void CreateRubberDuckInstance()
     {
-        var rightBorder = Camera.main.ViewportToWorldPoint(new Vector3(1, 0, 0)).x;
+        var rightBorder = Camera.main.ViewportToWorldPoint(new Vector3(1.08f, 0, 0)).x;
         var topBorder = Camera.main.ViewportToWorldPoint(new Vector3(0, 0, 0)).y;
         var bottomBorder = Camera.main.ViewportToWorldPoint(new Vector3(0, 1, 0)).y;
 
