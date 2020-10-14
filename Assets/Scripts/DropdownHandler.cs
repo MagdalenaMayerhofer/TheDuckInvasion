@@ -6,6 +6,8 @@ public class DropdownHandler : MonoBehaviour
 
     void Start()
     {
+        CharacterInformation.character = CharacterInformation.Character.Student;
+
         var dropdown = transform.GetComponent<Dropdown>();
 
         dropdown.onValueChanged.AddListener(delegate { DropdownItemSelected(dropdown); });
