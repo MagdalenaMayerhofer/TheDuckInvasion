@@ -10,9 +10,8 @@ public class SpecialEffectsHelper : MonoBehaviour
     /// </summary>
     public static SpecialEffectsHelper Instance;
 
-    public ParticleSystem smokeEffect;
-    public ParticleSystem fireEffect;
-    public ParticleSystem breadCrumbsEffect;
+
+    public ParticleSystem breadcrumbsEffect;
     public ParticleSystem waterdropsEffect;
 
     void Awake()
@@ -26,24 +25,9 @@ public class SpecialEffectsHelper : MonoBehaviour
         Instance = this;
     }
 
-    /// <summary>
-    /// Create an explosion at the given location
-    /// </summary>
-    /// <param name="position"></param>
-    public void Explosion(Vector3 position)
-    {
-        // Smoke on the water
-        instantiate(smokeEffect, position);
-
-        // Tu tu tu, tu tu tudu
-
-        // Fire in the sky
-        instantiate(fireEffect, position);
-    }
-
     public void EatBread(Vector3 position)
     {
-        instantiate(breadCrumbsEffect, position);
+        instantiate(breadcrumbsEffect, position);
     }
 
     public void Splash(Vector3 position)

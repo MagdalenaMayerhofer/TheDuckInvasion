@@ -3,7 +3,10 @@ guid: b70d0fbcf8a914716b120d905fb34fb4
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - breadcrumbsEffect: {instanceID: 0}
+  - waterdropsEffect: {fileID: 7378123587323699328, guid: 91b831b7b29a64e3c932411de33b306f,
+      type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
