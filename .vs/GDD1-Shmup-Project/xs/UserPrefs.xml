@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{B005C9B4-6B77-CDD0-A1CA-92B3DE40C8CA}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CharacterInformation.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerBehavior.cs">
     <Files>
       <File FileName="Assets/Scripts/PlayerScript.cs" Line="21" Column="36" />
       <File FileName="Assets/Scripts/MenuScript.cs" Line="14" Column="2" />
@@ -7,8 +7,9 @@
       <File FileName="Assets/Scripts/GameOverScript.cs" Line="9" Column="2" />
       <File FileName="Assets/Scripts/EnemyBehaviour.cs" Line="18" Column="29" />
       <File FileName="Assets/Scripts/SpecialEffectsHelper.cs" Line="54" Column="1" />
-      <File FileName="Assets/Scripts/DropdownHandler.cs" Line="31" Column="36" />
-      <File FileName="Assets/Scripts/CharacterInformation.cs" Line="5" Column="14" />
+      <File FileName="Assets/Scripts/DropdownHandler.cs" Line="27" Column="1" />
+      <File FileName="Assets/Scripts/CharacterInformation.cs" Line="12" Column="6" />
+      <File FileName="Assets/Scripts/PlayerBehavior.cs" Line="37" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,7 +17,7 @@
           <Node name="GDD1-Shmup-Project" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="CharacterInformation.cs" selected="True" />
+                <Node name="PlayerBehavior.cs" selected="True" />
               </Node>
             </Node>
           </Node>
