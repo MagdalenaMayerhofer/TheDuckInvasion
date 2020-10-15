@@ -1,15 +1,15 @@
 ﻿<Properties StartupConfiguration="{B005C9B4-6B77-CDD0-A1CA-92B3DE40C8CA}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerBehavior.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/DropdownHandler.cs">
     <Files>
       <File FileName="Assets/Scripts/PlayerScript.cs" Line="21" Column="36" />
-      <File FileName="Assets/Scripts/MenuScript.cs" Line="14" Column="2" />
-      <File FileName="Assets/Scripts/Utils.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/GameOverScript.cs" Line="9" Column="2" />
-      <File FileName="Assets/Scripts/EnemyBehaviour.cs" Line="18" Column="29" />
-      <File FileName="Assets/Scripts/SpecialEffectsHelper.cs" Line="54" Column="1" />
-      <File FileName="Assets/Scripts/DropdownHandler.cs" Line="27" Column="1" />
-      <File FileName="Assets/Scripts/CharacterInformation.cs" Line="12" Column="6" />
-      <File FileName="Assets/Scripts/PlayerBehavior.cs" Line="37" Column="2" />
+      <File FileName="Assets/Scripts/MenuScript.cs" />
+      <File FileName="Assets/Scripts/Utils.cs" />
+      <File FileName="Assets/Scripts/GameOverScript.cs" />
+      <File FileName="Assets/Scripts/EnemyBehaviour.cs" />
+      <File FileName="Assets/Scripts/SpecialEffectsHelper.cs" />
+      <File FileName="Assets/Scripts/DropdownHandler.cs" Line="10" Column="1" />
+      <File FileName="Assets/Scripts/CharacterInformation.cs" />
+      <File FileName="Assets/Scripts/PlayerBehavior.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,7 +17,7 @@
           <Node name="GDD1-Shmup-Project" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="PlayerBehavior.cs" selected="True" />
+                <Node name="DropdownHandler.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -27,7 +27,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="bb02fe1b-0df0-4c2a-a248-487f1c6dbeb1" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="9fe2838c-f198-40ae-afe1-09ebc48155ef" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
