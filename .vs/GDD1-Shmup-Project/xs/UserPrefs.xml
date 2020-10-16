@@ -7,7 +7,7 @@
       <File FileName="Assets/Scripts/GameOverScript.cs" />
       <File FileName="Assets/Scripts/EnemyBehaviour.cs" />
       <File FileName="Assets/Scripts/SpecialEffectsHelper.cs" />
-      <File FileName="Assets/Scripts/DropdownHandler.cs" Line="10" Column="1" />
+      <File FileName="Assets/Scripts/DropdownHandler.cs" Line="31" Column="55" />
       <File FileName="Assets/Scripts/CharacterInformation.cs" />
       <File FileName="Assets/Scripts/PlayerBehavior.cs" />
     </Files>
