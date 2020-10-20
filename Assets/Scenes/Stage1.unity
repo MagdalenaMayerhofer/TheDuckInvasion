@@ -1571,9 +1571,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96f481f4263364cc7befb1a1543e4aa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosionSound: {fileID: 8300000, guid: 726cf00aec00744e5ba8d86986d2365f, type: 3}
-  playerShotSound: {fileID: 8300000, guid: 32d6d8c73828a4ef2b0376c85bc91821, type: 3}
-  enemyShotSound: {fileID: 8300000, guid: 726a88395253c4ab79b6ac2298772520, type: 3}
+  splashSound: {fileID: 8300000, guid: b0a5109e4c4c943e586b52458c8cdb38, type: 3}
+  crunchSound: {fileID: 8300000, guid: 9995bec7e9988431ea62358e98a5f20f, type: 3}
+  freezeSound: {fileID: 8300000, guid: f7230e511243244cf9b6db310c1c49ab, type: 3}
 --- !u!114 &2120421815
 MonoBehaviour:
   m_ObjectHideFlags: 0
