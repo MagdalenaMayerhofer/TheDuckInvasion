@@ -10,7 +10,7 @@ public class MoveScript : MonoBehaviour
     /// <summary>
     /// Object speed
     /// </summary>
-    public Vector2 speed = new Vector2(10, 10);
+    public Vector2 speed;
 
     public bool movingEnabled = true;
 
@@ -21,6 +21,14 @@ public class MoveScript : MonoBehaviour
 
     private Vector2 movement;
     private Rigidbody2D rigidbodyComponent;
+
+    private void Start()
+    {
+        if (CharacterInformation.Character.Grandma == CharacterInformation.character)
+        {
+            speed = new Vector2(speed.x / 2, speed.y / 2);
+        }
+    }
 
     void Update()
     {

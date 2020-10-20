@@ -13,6 +13,7 @@ public class EnemyScript : MonoBehaviour
     private MoveScript moveScript;
     private Collider2D coliderComponent;
     private SpriteRenderer rendererComponent;
+    private int feedCount = 1;
 
     void Awake()
     {
@@ -22,6 +23,11 @@ public class EnemyScript : MonoBehaviour
         coliderComponent = GetComponent<Collider2D>();
 
         rendererComponent = GetComponent<SpriteRenderer>();
+
+        if (CharacterInformation.Character.Grandma == CharacterInformation.character)
+        {
+            feedCount = 2;
+        }
     }
 
     // 1 - Disable everything
@@ -78,16 +84,22 @@ public class EnemyScript : MonoBehaviour
             SpecialEffectsHelper.Instance.EatBread(transform.position);
             SoundEffectsHelper.Instance.MakeCrunchSound();
 
-            // Dead!
-            Destroy(gameObject);
+            feedCount--;
 
+            if (feedCount == 0)
+            {
+                // Happy and disappearing!
+                Destroy(gameObject);
+                ScoreScript.scoreValue++;
+                Utils.Instance.CreateRubberDuckInstance();
+                Utils.Instance.CreateRubberDuckInstance();
+            }
+
+            
             // Destroy the shot
             Destroy(shot.gameObject); // Remember to always target the game object, otherwise you will just remove the script
 
-            ScoreScript.scoreValue++;
-            Utils.Instance.CreateRubberDuckInstance();
-            Utils.Instance.CreateRubberDuckInstance();
-
+            
         } else if (shot != null && shot.gameObject.GetComponent<PrefabInstance>().prefabProperty == PrefabInstance.PrefabProperty.IcePrefab)
         {
 
