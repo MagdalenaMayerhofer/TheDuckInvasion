@@ -12,9 +12,9 @@ public class SoundEffectsHelper : MonoBehaviour
     /// </summary>
     public static SoundEffectsHelper Instance;
 
-    public AudioClip explosionSound;
-    public AudioClip playerShotSound;
-    public AudioClip enemyShotSound;
+    public AudioClip splashSound;
+    public AudioClip crunchSound;
+    public AudioClip freezeSound;
 
     void Awake()
     {
@@ -26,19 +26,19 @@ public class SoundEffectsHelper : MonoBehaviour
         Instance = this;
     }
 
-    public void MakeExplosionSound()
+    public void MakeSplashSound()
     {
-        MakeSound(explosionSound);
+        MakeSound(splashSound);
     }
 
-    public void MakePlayerShotSound()
+    public void MakeCrunchSound()
     {
-        MakeSound(playerShotSound);
+        MakeSound(crunchSound);
     }
 
-    public void MakeEnemyShotSound()
+    public void MakeFreezeSound()
     {
-        MakeSound(enemyShotSound);
+        MakeSound(freezeSound);
     }
 
     /// <summary>

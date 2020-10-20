@@ -36,7 +36,6 @@ public class PlayerScript : MonoBehaviour
             if (weapon != null)
             {
                 weapon.FoodAttack();
-                SoundEffectsHelper.Instance.MakePlayerShotSound();
             }
         } else if (snowball)
         {
@@ -44,7 +43,6 @@ public class PlayerScript : MonoBehaviour
             if (weapon != null)
             {
                 weapon.IceAttack();
-                SoundEffectsHelper.Instance.MakePlayerShotSound();
             }
         }
 
@@ -79,7 +77,7 @@ public class PlayerScript : MonoBehaviour
     {
         // 'Splosion!
         SpecialEffectsHelper.Instance.Splash(transform.position);
-        SoundEffectsHelper.Instance.MakeExplosionSound();
+        SoundEffectsHelper.Instance.MakeSplashSound();
 
         // Dead!
         Destroy(gameObject);

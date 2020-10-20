@@ -76,6 +76,7 @@ public class EnemyScript : MonoBehaviour
         {
 
             SpecialEffectsHelper.Instance.EatBread(transform.position);
+            SoundEffectsHelper.Instance.MakeCrunchSound();
 
             // Dead!
             Destroy(gameObject);
@@ -91,6 +92,7 @@ public class EnemyScript : MonoBehaviour
         {
 
             //SpecialEffectsHelper.Instance.EatBread(transform.position);
+            SoundEffectsHelper.Instance.MakeFreezeSound();
 
             rendererComponent.sprite = freezeSprite;
             moveScript.movingEnabled = false;
