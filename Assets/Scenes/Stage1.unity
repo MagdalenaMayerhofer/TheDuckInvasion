@@ -1272,7 +1272,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32de597cd466c47b4a8a3b0b0fc49127, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: {x: 1, y: 1}
+  speed: {x: 0.01, y: 0.01}
   direction: {x: -1, y: 0}
   isLinkedToCamera: 0
   isLooping: 1

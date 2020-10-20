@@ -1,22 +1,21 @@
 ﻿<Properties StartupConfiguration="{B005C9B4-6B77-CDD0-A1CA-92B3DE40C8CA}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/FramesPerSecond/FramesPerSecond.cs">
     <Files>
-      <File FileName="Assets/Scripts/Projectile.cs" Line="29" Column="37" />
       <File FileName="Assets/Scripts/RendererExtensions.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/SpecialEffectsHelper.cs" Line="19" Column="34" />
-      <File FileName="Assets/Scripts/PlayerBehavior.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/PlayerScript.cs" Line="84" Column="6" />
-      <File FileName="Assets/Scripts/WeaponScript.cs" Line="52" Column="75" />
-      <File FileName="Assets/Scripts/ScoreScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/ShotScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/EnemyScript.cs" Line="82" Column="33" />
-      <File FileName="Assets/Scripts/Utils.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/PrefabInstance.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/SoundEffectsHelper.cs" Line="36" Column="32" />
-      <File FileName="Assets/Scripts/DropdownHandler.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/EnemyBehaviour.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/SpecialEffectsHelper.cs" />
+      <File FileName="Assets/Scripts/PlayerBehavior.cs" />
+      <File FileName="Assets/Scripts/PlayerScript.cs" />
+      <File FileName="Assets/Scripts/WeaponScript.cs" />
+      <File FileName="Assets/Scripts/ScoreScript.cs" />
+      <File FileName="Assets/Scripts/ShotScript.cs" />
+      <File FileName="Assets/Scripts/EnemyScript.cs" />
+      <File FileName="Assets/Scripts/Utils.cs" />
+      <File FileName="Assets/Scripts/PrefabInstance.cs" />
+      <File FileName="Assets/Scripts/SoundEffectsHelper.cs" />
+      <File FileName="Assets/Scripts/DropdownHandler.cs" />
+      <File FileName="Assets/Scripts/EnemyBehaviour.cs" />
       <File FileName="Assets/Scripts/MenuScript.cs" />
-      <File FileName="Assets/Scripts/MoveScript.cs" Line="36" Column="1" />
+      <File FileName="Assets/Scripts/MoveScript.cs" />
       <File FileName="Assets/FramesPerSecond/FramesPerSecond.cs" Line="1" Column="1" />
     </Files>
     <Pads>
@@ -32,14 +31,11 @@
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="9e1885fe-8bc7-4d64-85c2-854a9377396f" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="eab739c8-68e8-41df-8a76-d5eccaa7dac7" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
