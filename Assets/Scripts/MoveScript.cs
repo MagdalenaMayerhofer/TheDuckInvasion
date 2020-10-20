@@ -12,6 +12,8 @@ public class MoveScript : MonoBehaviour
     /// </summary>
     public Vector2 speed = new Vector2(10, 10);
 
+    public bool movingEnabled = true;
+
     /// <summary>
     /// Moving direction
     /// </summary>
@@ -22,15 +24,20 @@ public class MoveScript : MonoBehaviour
 
     void Update()
     {
-        // 2 - Movement
-        movement = new Vector2(
-          speed.x * direction.x,
-          speed.y * direction.y);
+        if (movingEnabled)
+        {
+            // 2 - Movement
+            movement = new Vector2(speed.x * direction.x, speed.y * direction.y);
+        } else
+        {
+            movement = new Vector2(0, 0);
+        }
     }
 
     void FixedUpdate()
     {
         if (rigidbodyComponent == null) rigidbodyComponent = GetComponent<Rigidbody2D>();
+
 
         // Apply movement to the rigidbody
         rigidbodyComponent.velocity = movement;

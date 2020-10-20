@@ -3,6 +3,7 @@
 /// <summary>
 /// Launch projectile
 /// </summary>
+
 public class WeaponScript : MonoBehaviour
 {
     //--------------------------------
@@ -27,12 +28,13 @@ public class WeaponScript : MonoBehaviour
     {
         // Create a new shot
         var shotTransform = Instantiate(foodPrefab);
+        PrefabInstance instance = shotTransform.gameObject.AddComponent<PrefabInstance>();
+        instance.prefabProperty = PrefabInstance.PrefabProperty.BreadPrefab;
+
 
         // Assign position
         shotTransform.position = transform.position;
 
-        // The is enemy property
-        ShotScript shot = shotTransform.gameObject.GetComponent<ShotScript>();
 
         // Make the weapon shot always towards it
         MoveScript move = shotTransform.gameObject.GetComponent<MoveScript>();
@@ -46,12 +48,13 @@ public class WeaponScript : MonoBehaviour
     {
         // Create a new shot
         var shotTransform = Instantiate(icePrefab);
+        PrefabInstance instance = shotTransform.gameObject.AddComponent<PrefabInstance>();
+        instance.prefabProperty = PrefabInstance.PrefabProperty.IcePrefab;
+
 
         // Assign position
         shotTransform.position = transform.position;
 
-        // The is enemy property
-        ShotScript shot = shotTransform.gameObject.GetComponent<ShotScript>();
 
         // Make the weapon shot always towards it
         MoveScript move = shotTransform.gameObject.GetComponent<MoveScript>();
