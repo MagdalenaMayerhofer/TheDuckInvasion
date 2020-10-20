@@ -1,34 +1,39 @@
 ﻿<Properties StartupConfiguration="{B005C9B4-6B77-CDD0-A1CA-92B3DE40C8CA}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EnemyScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/FramesPerSecond/FramesPerSecond.cs">
     <Files>
       <File FileName="Assets/Scripts/Projectile.cs" Line="29" Column="37" />
       <File FileName="Assets/Scripts/RendererExtensions.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/SpecialEffectsHelper.cs" Line="19" Column="34" />
       <File FileName="Assets/Scripts/PlayerBehavior.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/PlayerScript.cs" Line="38" Column="29" />
+      <File FileName="Assets/Scripts/PlayerScript.cs" Line="84" Column="6" />
       <File FileName="Assets/Scripts/WeaponScript.cs" Line="52" Column="75" />
       <File FileName="Assets/Scripts/ScoreScript.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/ShotScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/EnemyScript.cs" Line="95" Column="27" />
+      <File FileName="Assets/Scripts/EnemyScript.cs" Line="82" Column="33" />
       <File FileName="Assets/Scripts/Utils.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/PrefabInstance.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/SoundEffectsHelper.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/SoundEffectsHelper.cs" Line="36" Column="32" />
       <File FileName="Assets/Scripts/DropdownHandler.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/EnemyBehaviour.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/MenuScript.cs" />
-      <File FileName="Assets/Scripts/MoveScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MoveScript.cs" Line="36" Column="1" />
+      <File FileName="Assets/FramesPerSecond/FramesPerSecond.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="GDD1-Shmup-Project" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="EnemyScript.cs" selected="True" />
+              <Node name="FramesPerSecond" expanded="True">
+                <Node name="FramesPerSecond.cs" selected="True" />
               </Node>
+              <Node name="Scripts" expanded="True" />
             </Node>
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
