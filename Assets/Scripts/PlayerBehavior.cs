@@ -15,7 +15,7 @@ public class PlayerBehavior : MonoBehaviour
 
         GetPlayerCharacter();
 
-        var leftBorder = Camera.main.ViewportToWorldPoint(new Vector3(0.08f, 0, 0)).x;
+        var leftBorder = Camera.main.ViewportToWorldPoint(new Vector3(0.17f, 0, 0)).x;
         var verticalMiddle = Camera.main.ViewportToWorldPoint(new Vector3(0, 0.5f, 0)).y;
 
         Vector3 position = new Vector3(leftBorder, verticalMiddle, 0);
